@@ -118,7 +118,7 @@ Drop a `.csv` file below, add notes to describe this data if needed, and **Llama
         ),
     )
     gr.Examples(
-        examples=[["./example/titanic.csv", example_notes]],
+        examples=[["./titanic.csv", example_notes]],
         inputs=[file_input, text_input],
         cache_examples=False
     )
